@@ -11,3 +11,7 @@ The project is slowly moving along. We have successfully added a visual represen
 ## 7/24/2020
 
 A lot of progress was made this week. Essentially all we have worked on was put together as one. The functions from **xarray-spatial** were added. A user can select between using **shade, quantile, slope and aspect**. A special slider has been added which allows for choosing a range of values which you would like to examine (for example all parts of the map whose height is between 40 and 200 meters). For the quantile function you can select how many levels you want to use. Unfortunalty, the curvature is presenting some problems but that will be sorted out. The user can also select the **color map** that they want to use as well.
+
+## 7/31/2020
+
+After consulting an Anaconda Programmer, we learned that we had to resturcture the program. The the initial version consisted of one very large function which created all the displays. The program has now been reformated so that each individual option is seperated into **tabs** which have their own isolated display (curvature is now avaliable as well). There is now an options tab to select the color map. The options tab now also includes an **interactive map on which you can select what location you want to see in the US by clicking** instead of the preset locations before. The program automatically pulls the required data from the Amazon Bucket. Now moving forward we must add more xarray functions as well as deal with some noticable prefomance errors.  
