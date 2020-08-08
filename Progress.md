@@ -15,3 +15,7 @@ A lot of progress was made this week. Essentially all we have worked on was put 
 ## 7/31/2020
 
 After consulting an Anaconda Programmer, we learned that we had to resturcture the program. The the initial version consisted of one very large function which created all the displays. The program has now been reformated so that each individual option is seperated into **tabs** which have their own isolated display (curvature is now avaliable as well). There is now an options tab to select the color map. The options tab now also includes an **interactive map on which you can select what location you want to see in the US by clicking** instead of the preset locations before. The program automatically pulls the required data from the Amazon Bucket. Now moving forward we must add more xarray functions as well as deal with some noticable prefomance errors.  
+
+## 8/7/2020
+
+This week was a bit slower. We are in the process of allowing the user to select a region smaller than a 1 degree region, as well as fixing issues with the slope,and curvature functions. For these issues we are consulting knowledgebale people on how to fix them so it is taking a little bit. By Monday a temporary region selector will be in place.
