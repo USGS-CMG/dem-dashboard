@@ -19,3 +19,7 @@ After consulting an Anaconda Programmer, we learned that we had to resturcture t
 ## 8/7/2020
 
 This week was a bit slower. We are in the process of allowing the user to select a region smaller than a 1 degree region, as well as fixing issues with the slope,and curvature functions. For these issues we are consulting knowledgebale people on how to fix them so it is taking a little bit. By Monday a temporary region selector will be in place.
+
+## 8/14/2020
+
+This week was spent working out problems with the slope and curvature functions and developing a way to allow selecting smaller than one degree squares. After asking on Stack Overflow and the Xarray github, we figured out how merge different data sets in xarray. In addition, we learned after speaking with an xarray spatial developer how to fix the issues we were having with curvature and slope by changing the resolution. Currently these new features are being added to the dashboard. Next week as we move to the end of the project we may look into slecting different overviews.
